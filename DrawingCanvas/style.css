@@ -1,0 +1,109 @@
+/* center all elements and add bg image */
+body{
+    text-align: center;
+    background: url("images/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#header{
+    color: #fff; 
+    height: 80px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 3rem;
+    line-height: 80px;
+    background:  linear-gradient(to top left, white, rgba(67, 169, 228, 0.9));
+    background: -webkit-linear-gradient(to top left, white, rgba(67, 169, 228, 0.9));
+    background: -moz-linear-gradient(to top left, white, rgba(67, 169, 228, 0.9));
+    background: -o-linear-gradient(to top left, white, rgba(67, 169, 228, 0.9));
+
+}
+
+/* input container */
+.input-container{
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* color input, line thickness, slider */
+.input{
+    height: 30px;
+}
+#slider{
+    margin: 10px auto;
+}
+#circle{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transalte(horizontal, vertical) */
+    transform: translate(-50%, -50%);
+    transform: -webkit-transformtranslate(-50%, -50%);
+    transform: -moz-transformtranslate(-50%, -50%);
+    transform: -o-translate(-50%, -50%);
+}
+
+#thicknessInput{
+    /* becoz we want to postion circle relative to this container */
+    position: relative;
+}
+
+#canvas{
+    width: 500px; 
+    height: 400px;
+    border: 1px solid #fff;
+    margin:10px auto;
+}
+
+#paint{
+    background-color: #fff;
+    cursor: crosshair;
+}
+
+#buttons{
+    width: 399px;
+    margin: 30px auto;
+}
+
+.inputBtn{
+    width: 133px;
+    color: black;
+    font-size: 1.3rem;
+    float: left;
+}
+/* btn are centered due to text-align: center in the body*/ 
+.c-btn{
+    background: #fff;
+    height: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+}
+.c-btn:hover{
+    color: #fff;
+    background:  linear-gradient(to top left, white, rgba(67, 169, 228, 0.9));
+    background: -webkit-linear-gradient(to top left, white, rgba(67, 169, 228, 0.9));
+    background: -moz-linear-gradient(to top left, white, rgba(67, 169, 228, 0.9));
+    background: -o-linear-gradient(to top left, white, rgba(67, 169, 228, 0.9));
+}
+
+.c-btn:active{
+    position: relative;
+    top: 4px;
+    background: red;
+}
+
+.earseMode{
+    background-color: red;
+    color: #fff;;
+}
