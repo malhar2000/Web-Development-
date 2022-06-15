@@ -1,0 +1,61 @@
+body, html{
+    margin:0;
+    border:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header{
+    background: #333;
+    height: 500px;
+    
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.nav-item{
+     padding: 0 40px;
+}
+.navbar{
+    background-color: transparent;
+    opacity: 1;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+.intro{
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.navbar-toggler{
+    border: 1px solid #fff;
+}
+
+#blogs{
+    padding: 3% 15%;
+
+}
+
+.card{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+
+#aboutheader{
+    background: url("about-bg.jpg") no-repeat center;
+    height: 700px;
+}
+ 

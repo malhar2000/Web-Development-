@@ -1,0 +1,41 @@
+ 
+
+ #sec1{
+     display: flex;
+     padding: 5px;
+     flex-direction:  column;
+     align-items: center;
+     justify-content: center;
+     
+ }
+
+#d1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #333;
+    color:blue;
+}
+#d2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #333;
+    color:red;
+}
+#d3{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #333;
+    color:yellow;
+}
+#d4{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #333;
+    color:green;
+}
+#d5{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #333;
+    color:orange;
+}

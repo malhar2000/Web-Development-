@@ -1,0 +1,163 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color:  #ff4c68;
+}
+
+ 
+
+.container-fluid{
+    padding: 3% 15% 15%;
+}
+
+.title-container{
+    padding: 15% 7%;
+}
+ 
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom:  4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.dbtn{
+    margin: 5% 3% 5% 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.titleimage{ 
+    width: 30%;
+    transform: rotate(25deg);
+    position: absolute;
+ 
+}
+
+.ctext{
+    padding: 5%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ctext h3{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+     
+}
+
+.icon{
+      
+    color: #ef8172;
+     margin-bottom: 1rem;;
+    font-size: 4rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+
+ 
+
+.testimonial-image{
+    width: 10%;
+    border-radius:100%;
+     margin: 20px;
+}
+
+.carousel-item{ 
+    padding: 7% 15%;
+}
+
+#press{
+    background-color:  #ff4c68;
+    text-align: center;
+    padding-bottom:  3%;
+
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.btnpricing{
+    width: 100%;
+}
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+ 
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-size: 3.5rem;
+    line-height:1.5;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+    .titleimage{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}

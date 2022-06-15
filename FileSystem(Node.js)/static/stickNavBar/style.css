@@ -1,0 +1,56 @@
+ 
+/*Body:
+-Give the body element a relative position for the scrollspy to work.
+-Add a font family to the whole page */
+body{
+    position: relative;
+ 
+}
+/*Video:
+-Set the video as background, make it fixed.
+-make sure it appears behind all elements.
+-make it spread across the whole webpage*/
+ #bg-video{
+     position: fixed;
+   
+     min-width: 100%;
+     min-height: 100%;
+     z-index: -100;
+ }
+
+ .about{
+     height: 100vh;
+     color: #fff;
+ }
+/*Video does not work in small devices:
+-Hide the video and set picture as background (use media queries)
+-make it spread accross the whole webpage*/
+ 
+
+/*Style the Home section and elements inside it: 
+-reduce the margin-bottom of h1 and h2.
+-style the button and its hover state*/
+ 
+
+/*Style the About section: 
+-add padding-top so that the nav link is active before the carousel hits the top border of the page-
+-Limit its width in big devices to 1000px-
+-make headings bold and set the dimensions of pictures */
+ 
+
+/*Style the promise section: 
+-add padding-top for early activation of the nav link.
+-set the width of the carousel and center it
+-set the height of pictures and center them inside the carousel items
+-Move the carousel caption under the pictures
+*/
+ 
+
+
+/*Style the pictures and nav-brand for different screens*/
+ 
+/*Style the footer*/
+ 
+
+/*Style the navigation bar using a navbar css generator*/
+

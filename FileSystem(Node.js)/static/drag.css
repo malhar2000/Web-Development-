@@ -1,0 +1,24 @@
+.blue-box{
+    width: auto;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+
+ #apple{
+    width: auto;
+    height: 200px;
+    background-color: yellow;
+}
+
+
+#mac{
+    width: auto;
+    height: 201px;
+    background-color: green;
+}
+
+.sortable{
+    border: 1px solid #eee;
+    min-height: 20px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+    <div class="pDisplay"> 
+        <p>Enter the total hours worked by all employes: </p>
+        <input id="totalHoursWorked" type="number">
+    </div>
+    <div class="pDisplay"> 
+        <p>Enter the total amount of tips:  </p>
+        <input id="totalTips" type="number">
+    </div>
+    <input type="submit" value="submit" id="submitbtn">
+    <div id="eachTips"> 
+        <p>Enter each person's total hours: </p>
+        <input id="totalHoursForEachPerson">
+        <input type="submit" value="calculate" id="calculatetips">
+        <div id="totalAmount"> 
+            <p> <span id="total">0</span></p>
+            <p> <span id="totalLeft">0</span></p>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

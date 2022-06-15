@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+    <body>
+        <form method="GET" action="action.php">
+            First Name: <input type = "text"  name = "firstname"><br>
+            Last Name: <input type = "text" name = "lastname"><br>
+            Email: <input type = "email" required name = "email"><br>
+            Password: <input type = "password" min = "10" name = "password"><br>
+            Birthday: <input type = "date" name = "birthday"><br>
+            Gender: <br>
+            <input type = "radio" name="gender">Male<br>
+            <input type = "radio" name="gender">Female<br>
+            <input type = "radio" name="gender">Other<br>
+            Pets: <br>
+            <input type = "checkbox" name = "cat">Cat<br>
+            <input type = "checkbox" name = "dog">Dogs<br>
+            Cars:<br>
+            <select>
+                <option value = "volvo" name = "volvo">Volvo</option>
+                <option value = "audi" name = "audi">Audi</option>
+            </select><br>
+            <input type = "submit" value = "Register!">
+            <input type="reset">
+        </form>
+    </body>
+</html>

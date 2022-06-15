@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="drag.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+ 
+</head>
+<body>
+    <div id="fb" class="ui-corner-all blue-box">
+        <p>Facebook</p>
+        <ul id="list" class="sortable">
+            <li>Audi</li>
+            <li>BMW</li>
+            <li>Mercdes</li> 
+        </ul>
+    </div>
+    <div id="mac"  class="ui-corner-all">
+        <p>microsoft</p>
+        <ul id="list2" class="sortable">
+            <li>Audi 3</li>
+            <li>BMW 3</li>
+            <li>Mercdes 3</li> 
+        </ul>
+    </div>
+    <div id="apple"  class="ui-corner-all">
+        <p>apple</p>
+    </div>
+    <script>
+        $(function(){ 
+            $("#fb").draggable({revert: true
+            });
+            $("#list").sortable({placeholder: "ui-state-error"});
+            $("#list2").sortable();
+            $("#list, #list2").sortable({placeholder: "ui-state-error", 
+        connectWith: ".sortable"});
+    });
+    </script>
+</body>
+</html>
+
+
+
